@@ -4,7 +4,7 @@ const Member = ({id, name, lastname,imageUrl}) => (
   <div className="column">
     <div className='ui fluid card'>
         <div className='image'>
-          <img  src={imageUrl}/>
+          <img href="#" src={imageUrl}/>
         </div>
         <div className='content'>
           <a className='header'>{name} {lastname}</a>

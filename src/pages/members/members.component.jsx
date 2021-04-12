@@ -14,7 +14,7 @@ class MembersPage extends React.Component {
   render(){
     const { members } = this.state;
     return (
-      <div class="ui three column grid">
+      <div className="ui three column grid">
         {
           members.map(({ id,...otherMembersProps }) => (
             <Member key={id} {...otherMembersProps}
